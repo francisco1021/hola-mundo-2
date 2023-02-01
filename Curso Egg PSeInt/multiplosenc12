@@ -1,0 +1,22 @@
+Algoritmo multiplos
+	definir n1,n2 como entero
+	Escribir "escriba el primer numero"
+	leer n1
+	Escribir "escriba el segundo numero"
+	leer n2
+	Escribir esMultiplo(n1,n2)
+FinAlgoritmo
+funcion resultado<-esMultiplo(n1,n2)
+	
+	Definir resultado Como logico
+	definir cociente Como Real
+	
+	cociente= (n1/n2)-trunc(n1/n2)
+	
+	si cociente==0 Entonces
+		resultado=Verdadero
+	sino 
+		resultado=falso
+	FinSi
+FinFuncion
+

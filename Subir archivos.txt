@@ -1,0 +1,5 @@
+git init
+(Ya hecho, no usar)git remote add origin https://github.com/francisco1021/hola-mundo-2.git
+git add b.txt
+git commit -m "Primer archivo"
+git push origin master
